@@ -1,0 +1,11 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(203, 212, 218);
+    float: right;
+}
+
+.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
