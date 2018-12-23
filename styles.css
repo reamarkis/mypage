@@ -1,11 +1,42 @@
-.topnav {
-    overflow: hidden;
-    background-color: rgb(203, 212, 218);
-    float: right;
+* {
+    box-sizing: border-box
 }
 
-.sidenav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 15%;
+    height: 680px;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 22px 16px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    float: left;
+    padding: 0px 12px;
+    border: 1px solid #ccc;
+    width: 85%;
+    border-left: none;
+    height: 680px;
+}

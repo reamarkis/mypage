@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
 </head>
 <body>
-    <div class="topnav">
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
+    <div class="tab">
+        <button class="tablinks" style="font-size:1.7vw" onclick="openCategorie(event,'Education')">Education</button>
+        <button class="tablinks" style="font-size:1.7vw" onclick="openCategorie(event,'Finance')">Finance</button>
+        <button class="tablinks" style="font-size:1.7vw" onclick="openCategorie(event,'Science')">Science</button>
     </div>
-<h1>Services</h1>
-<ul class="sidenav">
-    <li><a href="#education">Education</a></li>
-    <li><a href="#finacne">Finance</a></li>
-    <li><a href="#science">Science</a></li>
-</ul>
+
+    <div id="Education" class="tabcontent" style="font-size:1.8vw">
+        <h1>Education</h1>
+        <img src="images/education.jpg" style="max-width:80%;height:auto;">
+    </div>
+
+    <div id="Finance" class="tabcontent" style="font-size:1.8vw" hidden> 
+        <h1>Finance</h1>
+        <img src="images/finance.jpg" style="max-width:80%;height:auto;">
+    </div>
+
+    <div id="Science" class="tabcontent" style="font-size:1.8vw" hidden>
+        <h1>Science</h1>
+        <img src="images/science.jpg" style="max-width:80%;height:auto;">
+    </div>    
 </body>
 </html>
