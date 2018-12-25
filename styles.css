@@ -92,20 +92,11 @@ html, body {
     color: rgb(0, 0, 0);
 }
 
-.theme {
-    padding-top: 5%;
-    margin-left: 20%;
-}
-
 .form-inline {
+    display: inline-block;
     margin-left: 20%;
 }
 
-.yourquestion {
-    margin-left: 20%;
-}
-
-#yourquestion{
-    width: 80%; 
-    height: 200px;
+#theme, #firstname, #lastname, #email,#emailconf {
+    width: 225%; 
 }

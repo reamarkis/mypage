@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
 </head>
@@ -37,8 +35,11 @@
 
     <div class="topnav">
         <a href="#home">Home</a>
+        <a> | </a>
         <a href="#products">Products</a>
+        <a> | </a>
         <a href="#about">About</a>
+        <a> | </a>
         <a href="#contact">Contact</a>
     </div>
 
@@ -88,9 +89,9 @@
 
     <div id="contact"><a href="contact"></a>
         <form>
-            <div class="theme">
+            <div class="form-inline" style="padding-top: 5%;">
                 <br><label for="theme">Theme:</label></br>
-                <input type="theme" id="theme" placeholder="Theme" name="theme">
+                <input type="theme" class="form-control" id="theme" placeholder="Theme" name="theme">
             </div>
         </form>
 
@@ -99,6 +100,9 @@
                 <br><label for="firstname">Firstname:</label></br>
                 <input type="firstname" class="form-control" id="firstname" placeholder="Firstname" name="firstname">
             </div>
+        </form>
+        
+        <form class="form-inline">
             <div class="form-group">
                 <br><label for="lastname">Lastname:</label></br>
                 <input type="lastname" class="form-control" id="lastname" placeholder="Lastname" name="lastname">
@@ -110,17 +114,18 @@
                 <br><label for="email">Email:</label></br>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
             </div>
+        </form>
+
+        <form class="form-inline">
             <div class="form-group">
                 </br><label for="emailconf">Email Confirmation:</label></br>
                 <input type="emailconf" class="form-control" id="emailconf" placeholder="Enter email again" name="emailconf">
             </div>
         </form>
 
-        <form>
-            <div class="yourquestion">
-                <br><label for="yourquestion">Your Question:</label></br>
-                <input type="yourquestion" id="yourquestion" placeholder="Your Question" name="yourquestion">
-            </div>
+        <formc class="form-inline">
+            </br><label for="yourquestion">Your Question:</label></br>
+            <textarea style="resize:none" name="yourquestion" class="form-control" placeholder="Write your question here..." cols="111" rows="12"></textarea>
         </form>
     </div>
 
