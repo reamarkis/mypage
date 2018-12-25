@@ -1,3 +1,7 @@
+
+/*
+Obsolete
+
 const tabcontent = document.getElementsByClassName("tabcontent");
 const tablinks = document.getElementsByClassName("tablinks");
 
@@ -18,3 +22,4 @@ function openCategorie(evt, categorieName) {
     document.getElementById(categorieName).style.display = "block";
     evt.currentTarget.className += " active";
 }
+*/
