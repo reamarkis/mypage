@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
     <script src="app.js"></script>
 </head>
@@ -35,35 +36,42 @@
 
     <div class="topnav">
         <a href="#home">Home</a>
-        <a style="color:rgb(255, 255, 255);"> | </a>
+        <a id="divider"> | </a>
         <a href="#products">Products</a>
-        <a style="color:rgb(255, 255, 255);"> | </a>
+        <a id="divider"> | </a>
         <a href="#about">About</a>
-        <a style="color:rgb(255, 255, 255);"> | </a>
+        <a id="divider" > | </a>
         <a href="#contact">Contact</a>
     </div>
 
-    <div id="home"><a href="home"></a></div>
 
-    <div id="products"><a href="products"></a>
-        <div id="Education" class="productImages" style="font-size:1.8vw">
-            <h1 style="color:rgb(0, 0, 0);"> Education</h1>
+
+    <div id="home">
+        <a href="#home"></a>
+    </div>
+
+
+
+
+    <div id="products"><a href="#products"></a>
+        <div id="Education" class="productImages">
+            <h1>Education</h1>
             <img src="images/graduation.jpg" style="width:75%">
             <p class="productText">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
         </div>
 
-        <div id="technology" class="productImages" style="font-size:1.8vw"> 
-            <h1 style="color:rgb(0, 0, 0);">Technology</h1>
+        <div id="technology" class="productImages"> 
+            <h1>Technology</h1>
             <img src="images/cable.jpg" style="width:75%">
             <p class="productText">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
         </div>
     
-        <div id="science" class="productImages" style="font-size:1.8vw">
-            <h1 style="color:rgb(0, 0, 0);">Science</h1>
+        <div id="science" class="productImages">
+            <h1>Science</h1>
             <img src="images/satelite.jpg" style="width:89%">
             <p class="productText">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
@@ -71,9 +79,11 @@
         </div>
     </div>
 
-    <div id="about"><a href="about"></a>
-        <img src="images/about.jpg" class="aboutImages" style="height:50%;width:25%">
-        <p class="aboutText" style="padding-top: 5%;">
+
+
+    <div id="about"><a href="#about"></a>
+        <img src="images/about.jpg" class="aboutImages">
+        <p class="aboutText">
             Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
         </p>
         <p class="aboutText">
@@ -89,7 +99,7 @@
 
     <div id="contact"><a href="contact"></a>
         <form>
-            <div class="form-inline" style="padding-top: 5%;">
+            <div class="form-inline">
                 <br><label for="theme">Theme:</label></br>
                 <input type="theme" class="form-control" id="theme" placeholder="Theme" name="theme">
             </div>
@@ -125,8 +135,20 @@
 
         <formc class="form-inline">
             </br><label for="yourquestion">Your Question:</label></br>
-            <textarea style="resize:none" name="yourquestion" class="form-control" placeholder="Write your question here..." cols="111" rows="12"></textarea>
+            <textarea style="resize:none" name="yourquestion" class="form-control" placeholder="Write your question here..." cols="111" rows="7"></textarea>
         </form>
+
+        <form>
+            <input type="submit" value="Submit">
+        </form>
+
+        <div id="social-media">
+            <a href="#facebook" class="fa fa-facebook"></a>
+            <a href="#twitter" class="fa fa-twitter"></a>
+            <a href="#instagram" class="fa fa-instagram"></a>
+            <a href="#linkedin" class="fa fa-linkedin"></a>
+            <a href="#xing" class="fa fa-xing"></a>
+        </div>
     </div>
 
 </body>
