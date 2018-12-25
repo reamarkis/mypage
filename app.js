@@ -1,7 +1,5 @@
 
 /*
-Obsolete
-
 const tabcontent = document.getElementsByClassName("tabcontent");
 const tablinks = document.getElementsByClassName("tablinks");
 
