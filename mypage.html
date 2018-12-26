@@ -17,7 +17,6 @@
         <button class="tablinks" style="font-size:1.7vw" onclick="openCategorie(event,'Science')">Science</button>
     </div>
 -->
-
     <div class="topnav">
         <a href="#home">Home</a>
         <a id="divider"> | </a>
@@ -28,49 +27,37 @@
         <a href="#contact">Contact</a>
     </div>
 
-
-
-    <div id="home">
+    <div class="home" id="home">
         <a href="#home"></a>
     </div>
 
-
-
-
-    <div id="products"><a href="#products"></a>
+    <div class="products" id="products"><a href="#products"></a>
         <div id="Education" class="productImages">
             <h1>Education</h1>
             <img src="images/graduation.jpg" style="width:75%">
             <p class="productText">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
         </div>
-
         <div id="technology" class="productImages"> 
             <h1>Technology</h1>
             <img src="images/cable.jpg" style="width:75%">
             <p class="productText">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
         </div>
-    
         <div id="science" class="productImages">
             <h1>Science</h1>
             <img src="images/satelite.jpg" style="width:89%;">
             <p class="productText">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
         </div>
     </div>
 
-
-
-    <div id="about"><a href="#about"></a>
-        <div>
-            <img src="images/about.jpg" class="aboutImages" style="width:40%">
-            <p class="aboutText">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-            </p>
+    <div class="about" id="about"><a href="#about"></a>
+        <div class="aboutImages col-xs-12">
+            <img src="images/about.jpg" id="building">
             <p class="aboutText">
                 Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
             </p>
@@ -83,64 +70,46 @@
         </div>
     </div>
 
-    <div id="contact"><a href="contact"></a>
-        <div>
-            <form class="form-group">
-            <div class="form-inline">
+    <div class="contact" id="contact"><a href="contact"></a>
+        <form class="form-group">
+            <div>
                 <br><label for="theme">Theme:</label></br>
                 <input type="theme" class="form-control" id="theme" placeholder="Theme" name="theme">
             </div>
-        </form>
-
-        <form class="form-inline">
-            <div class="form-group">
+            <div class="form-inline">
                 <br><label for="firstname">Firstname:</label></br>
                 <input type="firstname" class="form-control" id="firstname" placeholder="Firstname" name="firstname">
             </div>
-        </form>
-        
-        <form class="form-inline">
-            <div class="form-group">
+            <div class="form-inline">
                 <br><label for="lastname">Lastname:</label></br>
                 <input type="lastname" class="form-control" id="lastname" placeholder="Lastname" name="lastname">
             </div>
-        </form>
-
-        <form class="form-inline">
-            <div class="form-group">
+            <div class="form-inline">
                 <br><label for="email">Email:</label></br>
                 <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
             </div>
-        </form>
-
-        <form class="form-inline">
-            <div class="form-group">
+            <div class="form-inline">
                 </br><label for="emailconf">Email Confirmation:</label></br>
                 <input type="emailconf" class="form-control" id="emailconf" placeholder="Enter email again" name="emailconf">
             </div>
-        </form>
-
-        <formc class="form-inline">
-            <div class="form-group">
+            <div>
                 </br><label for="yourquestion">Your Question:</label></br>
-                <textarea style="resize:none" name="yourquestion" class="form-control" placeholder="Write your question here..." cols="111" rows="7"></textarea>
+                <textarea style="resize:none" name="yourquestion" class="form-control" placeholder="Write your question here..." cols="10" rows="7"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Submit">
             </div>
         </form>
 
-        <form>
-            <input type="submit" value="Submit">
-        </form>
-
-        </div>
-        
-        <div id="social-media">
-            <a href="#facebook" class="fa fa-facebook"></a>
-            <a href="#twitter" class="fa fa-twitter"></a>
-            <a href="#instagram" class="fa fa-instagram"></a>
-            <a href="#linkedin" class="fa fa-linkedin"></a>
-            <a href="#xing" class="fa fa-xing"></a>
+        <div>
+            <div id="social-media">
+                <a href="#facebook" class="fa fa-facebook"></a>
+                <a href="#twitter" class="fa fa-twitter"></a>
+                <a href="#instagram" class="fa fa-instagram"></a>
+                <a href="#linkedin" class="fa fa-linkedin"></a>
+                <a href="#xing" class="fa fa-xing"></a>
+            </div>
         </div>
     </div>
-
 </body>
 </html>
