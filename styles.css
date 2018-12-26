@@ -54,7 +54,7 @@ div img.productImages {
 
 h1 {
     color:rgb(0, 0, 0);
-    font-size:1.8vw
+    font-size: 20px;
 }
 
 .productText {
@@ -96,7 +96,7 @@ h1 {
 }
 
 #theme, #firstname, #lastname, #email,#emailconf {
-    width: 225%; 
+    width: 21.8vw; 
 }
 
 input[type=submit] {
@@ -115,7 +115,9 @@ input[type=submit]:hover {
 }
 
 #social-media {
-    padding-left: 67.5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 39.5%;
     padding-top: 15%;
 }
 
